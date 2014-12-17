@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>RTAPPLES.COM</title>
-	<link rel="stylesheet" type="text/css" href="../applerecycle/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
     <style type="text/css">
 <!--
 #apDiv1 {
@@ -373,117 +373,6 @@ footer {
 }
 
 -->
-.list-table {
-width: 800px;
-margin: 0 auto;
-}
-.list-table .title {
-    width: 100%;
-    font-size: large;
-    font-weight: bolder;
-    text-align: center;
-    /* IE10 Consumer Preview */
-    background-image: -ms-linear-gradient(top, #2AA6FF 0%, #A5F0EF 50%, #2AA6FF 100%);
-    /* Mozilla Firefox */
-    background-image: -moz-linear-gradient(top, #2AA6FF 0%, #A5F0EF 50%, #2AA6FF 100%);
-    /* Opera */
-    background-image: -o-linear-gradient(top, #2AA6FF 0%, #A5F0EF 50%, #2AA6FF 100%);
-    /* Webkit (Safari/Chrome 10) */
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, 2AA6FF),     color-stop(0.5, #A5F0EF), color-stop(1, #2AA6FF));
-    /* Webkit (Chrome 11+) */
-    background-image: -webkit-linear-gradient(top, #2AA6FF 0%, #A5F0EF 50%, #2AA6FF 100%);
-    /* W3C Markup, IE10 Release Preview */
-    background-image: linear-gradient(to bottom, #2AA6FF 0%, #A5F0EF 50%, #2AA6FF 100%);
-}
-.list-table .top {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;    
-}
-.list-table .bottom {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-.list-table .heading-row {
-}
-.list-table .heading-row .col-heading-1 {
-    width: 10%;
-    font-size: small;
-    text-align: center;
-    vertical-align: middle;
-    float: left;
-}
-.list-table .heading-row .col-heading-2 {
-    width: 35%;
-    font-size: small;
-    text-align: center;
-    vertical-align: middle;
-    float: left;
-}
-.list-table .heading-row .col-heading-3 {
-    width: 35%;
-    font-size: small;
-    text-align: center;
-    vertical-align: middle;
-    float: left;
-}
-.list-table .heading-row .col-heading-4 {
-    width: 20%;
-    font-size: small;
-    text-align: center;
-    vertical-align: middle;
-    float: left;
-}
-.list-table .heading-row .col-background {
-    /* IE10 Consumer Preview */
-    background-image: -ms-linear-gradient(top, #808080 0%, #D3D3D3 50%, #808080 100%);
-    /* Mozilla Firefox */
-    background-image: -moz-linear-gradient(top, #808080 0%, #D3D3D3 50%, #808080 100%);
-    /* Opera */
-    background-image: -o-linear-gradient(top, #808080 0%, #D3D3D3 50%, #808080 100%);
-    /* Webkit (Safari/Chrome 10) */
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #808080), color-stop(0.5, #D3D3D3), color-stop(1, #808080));
-    /* Webkit (Chrome 11+) */
-    background-image: -webkit-linear-gradient(top, #808080 0%, #D3D3D3 50%, #808080 100%);
-    /* W3C Markup, IE10 Release Preview */
-    background-image: linear-gradient(to bottom, #808080 0%, #D3D3D3 50%, #808080 100%);
-}
-.list-table .clear {
-    clear: both;
-}
-.list-table .detail {
-    background-color: #eee;
-}
-.list-table .detail div:nth-child(odd) {
-    background-color:#eee;
-}
-.list-table .detail div:nth-child(even) {
-    background-color:#fff;
-}
-.list-table .detail .col-1 {
-    width: 10%;
-    text-align: center;
-    float: left;
-}
-.list-table .detail .col-2 {
-    width: 35%;
-    float: left;
-}
-.list-table .detail .col-3 {
-    width: 35%;
-    float: left;
-}
-.list-table .detail .col-4 {
-    width: 10%;
-    text-align: center;
-    float: left;
-}
-.list-table .detail .col-5 {
-    width: 10%;
-    text-align: center;
-    float: left;
-}
-
-
     </style>
 </head>
 <body>
@@ -492,7 +381,7 @@ margin: 0 auto;
 		<nav>
 		  <div id="appleNav" name="appleNav">
             <li>
-              <div align="center"><a href="http://www.apple.com/" title="Apple"><img src="../applerecycle/images/logo.png" alt="Apple Logo" /></a></div>
+              <div align="center"><a href="http://www.apple.com/" title="Apple"><img src="images/logo.png" alt="Apple Logo" /></a></div>
             </li>
             <li>
               <div align="center"><a href="http://store.apple.com/" title="Store">Store</a></div>
@@ -525,50 +414,17 @@ margin: 0 auto;
           </div>
     </nav>
 </div>
-<div>
-    <div class="list-table">
-        <div class="title top">Recycle List</div>
-        <div class="heading-row">
-            <div class="col-heading-1 col-background">item ID</div>
-            <div class="col-heading-2 col-background">Item Name</div>
-            <div class="col-heading-3 col-background">Date Submitted</div>
-            <div class="col-heading-4 col-background">Action</div>
-        </div>
-        <div class="clear"></div>
-        <div class="detail">
-            <div class="col-1">1</div>
-            <div class="col-2">iMac</div>
-            <div class="col-3">12-16-14	</div>
-            <div class="col-4">Delete</div>
-            <div class="col-5">Edit</div>
-        </div>
-        <div class="clear"></div>
-        <div class="detail">
-            <div class="col-1">2</div>
-            <div class="col-2">iPhone</div>
-            <div class="col-3">12-15-14</div>
-            <div class="col-4">Delete</div>
-            <div class="col-5">Edit</div>
-        </div>
-        <div class="clear"></div>
-        <div class="detail">
-            <div class="col-1">3</div>
-            <div class="col-2">IWatch</div>
-            <div class="col-3">12-13-14</div>
-            <div class="col-4">Delete</div>
-            <div class="col-5">Edit</div>
-        </div>
-        <div class="clear"></div>
-        <div class="title bottom">End of data</div>
-    </div>
+<div class="secondp">
+<h2>&nbsp;</h2>
+<p>&nbsp;</p>
 </div>
-<div class="centered">
 
-  <p align="center">&nbsp; </p>
+<div class="centered">
+  <p align="justify"><strong>Customer  loyalty combined with an expanding closed ecosystem:</strong> Customer loyalty is one of the most important competitive advantage a company  can have over its competitors. Apple’s loyal customers are willing to buy  anything and everything that Apple puts out into the market because the  customers know they are getting the best and reliable products when purchasing  from Apple. In the beginning Apple's closed ecosystem was a weakness but over  time it became a strength. Apple was able to produce a full range of software,  mobile applications, and products that are, or could be, interlinked with each  other.If you live in one of the following states, you can participate in free electronics recycling programs by visiting the sites below:
+Hawaii, Illinois, Indiana, Maine, Maryland, Michigan, New Jersey, New York, Oregon, Rhode Island, Vermont, Washington, Wisconsin, West Virginia
+
+If you live in Missouri, North Carolina, Oklahoma, Texas, or Virginia, fill out this request form to participate in a free recycling program.</p>
   <p align="center">&nbsp;</p>
-  <p align="center">&nbsp;</p>
-  <p align="center">&nbsp;</p>
-  <p align="center"><strong>Customer  loyalty combined with an expanding closed ecosystem:</strong> Customer loyalty is one of the most important competitive advantage a company  can have over its competitors. Apple’s loyal customers are willing to buy  anything and everything that Apple puts out into the market because the  customers know they are getting the best and reliable products when purchasing  from Apple. In the beginning Apple's closed ecosystem was a weakness but over  time it became a strength. Apple was able to produce a full range of software,  mobile applications, and products that are, or could be, interlinked with each  other. </p>
   <bar>
   <nav>
     <ul id="demo-nav">
@@ -588,11 +444,11 @@ margin: 0 auto;
     <p class="credit">&nbsp;</p>
     </div>
 </bar>
-  <p align="right">&nbsp;</p>
+  <p>&nbsp;</p>
   <p align="center">&nbsp;</p>
-  <p align="left"><img src="../applerecycle/images/photo.png" width="484" height="295"><img src="../applerecycle/images/photo.png" width="487" height="295"></p>
+  <p align="left"><img src="images/music.png" width="450" height="280"><img src="images/music.png" width="527" height="280"></p>
   <p align="center">&nbsp;</p>
-  </div>
+</div>
 
 <div class="Table">
     <div class="Title">
@@ -604,9 +460,9 @@ margin: 0 auto;
    <footer>
   <nav>
     <ul id="demo-nav">
-      <li><a href="../applerecycle/User Reg.html">User Reg</a><a href="../applerecycle/Recyclestatus.html">Recyclestatus</a><a href="../applerecycle/Custoinfor.html">Custoinfor</a></li>
-      <li><a href="../applerecycle/CurrentUsers.html">CurrentUsers</a></li>
-      <li><a href="../applerecycle/FinalDocument.pdf">FinalDocument</a></li>
+      <li><a href="User Reg.html">User Reg</a><a href="Recyclestatus.html">Recyclestatus</a><a href="Custoinfor.html">Custoinfor</a></li>
+      <li><a href="CurrentUsers.html">CurrentUsers</a></li>
+      <li><a href="FinalDocument.pdf">FinalDocument</a></li>
       <li></li>
     </ul>
     </nav>
